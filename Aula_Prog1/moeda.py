@@ -20,14 +20,14 @@ vintcen = int(input("Informe o valor de 20 centavos : "))
 dezzcen = int(input("Informe o valor de 10 centavos : "))
 cinccen = int(input("Informe o valor de 5  centavos : "))
 
-rcinqcen = cinqcen * 0.20
-rvintcen = vintcen * 0.5
-rdezzcen = dezzcen * 0.10
-rcinccen = cinccen * 0.05
+rcinqcen = 0.50 * cinqcen 
+rvintcen = 0.20 * vintcen
+rdezzcen = 0.10 * dezzcen
+rcinccen = 0.05 * cinccen 
 
 
 print ("Total de 1 real : {0} reais ".format(ummreal))
-print ("Total de 50 centavos : {0} reais".format(rcinccen))
+print ("Total de 50 centavos : {0} reais".format(rcinqcen))
 print ("Total de 20 centavos : {0} reais ".format(rvintcen))
 print ("Total de 10 centavos : {0} reais".format(rdezzcen))
 print ("Total de 5  centavos : {0} reais".format(rcinccen))
